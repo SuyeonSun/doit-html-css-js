@@ -274,9 +274,89 @@
                 </datalist>
                 <button type="submit">제출</button>
             </div>
-
         </fieldset>    
+
+        <h1>드롭다운 목록 삽입하기</h1>
+        <ul>
+            <li>
+                <label for="path">가입 경로</label>
+                <select id="path">
+                    <option value="blog">블로그</option>
+                    <option value="search">검색</option>
+                    <option value="sns">SNS</option>
+                    <option value="etc">기타</option>
+                </select>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <label for="choices">선택</label>
+                <select id="choices">
+                    <option value="choice1">선택1</option>
+                    <option value="choice2">선택2</option>
+                </select>
+            </li>
+        </ul>
     </form>
 
+    <form>
+        <fieldset>
+            <ul>
+                <li>
+                    <label id="path">가입경로</label>
+                    <select for="path">
+                        <option value="blog">블로그</option>
+                        <option value="news">뉴스</option>
+                    </select>
+                    <label id="memo">메모</label>
+                    <textarea cols="40" rows="5"></textarea>
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <h1>프론트엔드 개발자 지원서</h1>
+            <span>HTML, CSS, 자바스크립트의 기술을 이해하고 실무 경험이 있는 분을 찾습니다. </span>
+            <hr>
+            <b>개인 정보</b>
+            <div style="margin-left: 30px">
+                <div>
+                    <label for="userName"> 이름 </label>
+                    <input type="text" id="userName">
+                </div>
+                <div>
+                    <label for="userTel">연락처</label>
+                <input type="tel" id="userTel">
+                </div>
+            </div>
+        <b>지원 분야</b>
+        <div style="margin-left: 30px">
+            <div>
+                <label for="publishing">웹 퍼블리싱</label>
+            <input type="radio" id="publishing" checked>
+            </div>
+            <div>
+                <label for="development">웹 어플리케이션 개발</label>
+                <input type="radio" id="development">
+            </div>
+            <div>
+                <label for="management">개발 환경 개선</label>
+                <input type="radio" id="management">
+                
+            </div>
+        </div>
+    <b> 지원 동기</b>
+    <div>
+        <textarea placeholder="본사 지원 동기를 간략히 써 주세요" cols="30" rows="5"></textarea>
+    </div>
+    <div>
+        <button type="submit">접수하기</button>
+        <button type="reset"> 다시 쓰기</button>
+    </div>
+    </fieldset>
+    </form>
+    <br>
   </body>
 </html>
