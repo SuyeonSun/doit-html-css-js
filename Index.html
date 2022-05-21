@@ -67,6 +67,42 @@
       <li>코딩</li>
       <li>코딩</li>
     </ul>
+    <h1>caption-side 속성</h1>
+    <table>
+      <tr>
+        <th>용도</th>
+        <th>중량</th>
+        <th>개수</th>
+        <th>가격</th>
+      </tr>
+      <tr>
+        <td rowspan="2">선물용</td>
+        <td>3kg</td>
+        <td>11~16과</td>
+        <td>35,000원</td>
+      </tr>
+      <tr>
+        <td>5kg</td>
+        <td>11~16과</td>
+        <td>35,000원</td>
+      </tr>
+    </table>
+
+    <br />
+    <table id="table1" style="border-spacing: 2px; border-collapse: collapse">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+      </tr>
+      <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+      </tr>
+      <tr>
+        <td>Lois</td>
+        <td>Griffin</td>
+      </tr>
+    </table>
   </body>
 
   <style>
@@ -103,6 +139,17 @@
     }
     .trans3 {
       text-transform: lowercase;
+    }
+
+    table {
+      caption-side: bottom;
+      border: 1px dotted black;
+    }
+
+    td,
+    th {
+      border: 1px dotted black;
+      text-align: center;
     }
   </style>
 </html>
