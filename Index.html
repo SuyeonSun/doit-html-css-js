@@ -1,1 +1,108 @@
-initial file
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=s, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <h3 class="h3-tag">css 파일에 연결되어 적용된 style</h3>
+    <h1 style="color: green" id="id_title" class="class_title">레드향</h1>
+    <p style="color: red">This is what is called the 레드향.</p>
+    <p>More information about 레드향 right here!</p> -->
+
+    <h1>텍스트 정렬</h1>
+    <div>
+      <div style="text-align: center; line-height: 24px">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.
+      </div>
+      <br />
+      <hr />
+      <div style="text-align: end; line-height: 200%">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.
+      </div>
+      <br />
+      <hr />
+      <div style="text-align: right; line-height: 8px">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.
+      </div>
+      <br />
+      <hr />
+      <div style="text-align: justify">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.
+      </div>
+      <br />
+      <hr />
+      <div style="text-decoration: line-through">HTML</div>
+    </div>
+
+    <!--letter spacing for 글자 간격 조정-->
+    <h1>text-transform</h1>
+    <p class="trans1" style="letter-spacing: 0.2em">html</p>
+    <p class="trans2" style="letter-spacing: 1rem">css</p>
+    <p class="trans3">JAVASCRIPT</p>
+
+    <ul style="list-style-position: inside">
+      <li>코딩</li>
+      <li>코딩</li>
+      <li>코딩</li>
+    </ul>
+
+    <ul style="list-style-position: outside">
+      <li>코딩</li>
+      <li>코딩</li>
+      <li>코딩</li>
+    </ul>
+  </body>
+
+  <style>
+    /*
+        !important
+        인라인 스타일
+        id 스타일
+        클래스 스타일
+        타입 스타일
+    */
+    /* body {
+      color: yellow;
+    } */
+    /* p {
+      color: black;
+    }
+    h1 {
+      color: orange !important;
+    }
+    p {
+      color: blue;
+    }
+    #id_title {
+      color: orchid;
+    }
+    .class_title {
+      color: skyblue;
+    } */
+    .trans1 {
+      text-transform: capitalize; /*첫 번째 글자를 대문자로*/
+    }
+    .trans2 {
+      text-transform: uppercase;
+    }
+    .trans3 {
+      text-transform: lowercase;
+    }
+  </style>
+</html>
