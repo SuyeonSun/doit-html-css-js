@@ -1,0 +1,48 @@
+<!-- https://victorydntmd.tistory.com/m/185 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent {
+        border: 2px solid blue;
+        color: blue;
+        background: lightskyblue;
+        padding: 1rem;
+      }
+
+      .child {
+        border: 2px dotted red;
+        color: red;
+        background: lightpink;
+        padding: 1rem;
+      }
+
+      /* Alignment styles */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      body,
+      html {
+        height: 100%;
+      }
+
+      .abs {
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      parent
+      <div class="child">child #1</div>
+      <div class="child abs">child #2</div>
+    </div>
+  </body>
+</html>

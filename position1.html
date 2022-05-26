@@ -1,3 +1,4 @@
+<!-- https://victorydntmd.tistory.com/m/185 -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,26 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      #pos1 {
-        position: absolute;
-        left: 50px;
-        top: 50px;
+      #other {
+        border: 10px solid gray;
       }
-      #pos2 {
+      #parent {
+        border: 10px solid red;
         position: absolute;
-        right: 50px;
-        top: 50px;
+        top: 30px;
       }
-      #pos3 {
-        position: absolute;
-        left: 50px;
-        bottom: 50px;
+      #me {
+        border: 10px solid yellow;
       }
     </style>
   </head>
   <body>
-    <p id="pos1">what is this</p>
-    <p id="pos2">what is this</p>
-    <p id="pos3">what is this</p>
+    <div id="other">other</div>
+    <div id="parent">
+      parent
+      <div id="me">me</div>
+    </div>
   </body>
 </html>
