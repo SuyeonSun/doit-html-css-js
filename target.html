@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .view .no {
+        background: #e9e9e9;
+        float: left;
+        padding: 20px;
+        margin: 5px;
+      }
+      .view .no:target {
+        color: #f63;
+      }
+      nav {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="view">
+      <!-- target은 요소의 id와 url의 #이 같을 때 사용-->
+      <div id="no1" class="no">div 01</div>
+      <div id="no2" class="no">div 02</div>
+      <div id="no3" class="no">div 03</div>
+    </div>
+    <nav>
+      <a href="#no1"><button>1</button></a>
+      <a href="#no2"><button>2</button></a>
+      <a href="#no3"><button>3</button></a>
+    </nav>
+  </body>
+</html>
